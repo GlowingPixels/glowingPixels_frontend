@@ -1,0 +1,175 @@
+.mainContainer  {
+    position: relative;
+}
+
+.contentContainer  {
+    width: 70%;
+    height: 100vh;
+    background: #fff;
+    position: absolute;
+    text-align: center;
+}
+
+.sideContainer   {
+    height: 100vh;
+    background-image: linear-gradient(to right, #4ac0b6, #2896be);
+    z-index: 5;
+    position: absolute;
+    width: 30%;
+    top: 0;
+}
+
+.headerText {
+    font-size: 350%;
+    font-weight: 700;
+    margin-top: 160px;
+}
+
+.sideSubContainer   {
+    text-align: center;
+}
+
+.sideBtn    {
+    background: none;
+    color: #fff;
+    outline: none;
+    padding: 15px 20%;
+    border-radius: 35px;
+    border: 2px solid #fff;
+    margin-top: 10px;
+}
+
+.sideBtn:focus   {
+    outline: none;
+}
+
+.subHeaderText  {
+    font-size: 130%;
+    margin-top: 15px;
+}
+
+.iconContainer  {
+    margin: 25px 0 30px 0;
+}
+
+.icons  {
+    margin: 0 2px;
+    font-size: 140%;
+    border-radius: 50%;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.iconF {
+    background: rgb(13, 4, 53);
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.iconG {
+    background: rgb(184, 4, 4);
+    color: #fff;
+    padding: 10px 12px;
+}
+
+.iconIn {
+    background: rgb(13, 4, 53);
+    color: #fff;
+    padding: 10px 16px;
+}
+
+.orContainer    {
+    margin: 0 30%;
+    position: relative;
+}
+
+.or     {
+    position: absolute;
+    top: -13px;
+    left: 45.5%;
+    padding: 0 8px;
+    background: #fff;
+    font-weight: 600;
+}
+
+.inputContainer    {
+    margin: 0 30%;
+}
+
+.signIn > input {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid rgb(248, 248, 248);
+    height: 48px;
+    margin-bottom: 15px;
+    padding: 0 15px;
+    background: rgb(236, 236, 236);
+    transition: 200ms;
+}
+
+.signIn > input:focus    {
+    outline: none;
+    border: 1px solid rgb(203, 207, 207);
+    background: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    .mainContainer  {
+        text-align: center;
+    }
+    
+    .contentContainer   {
+        height: 70vh;
+        width: 100%;
+        padding: 5vh 5%;
+    }
+
+    .headerText {
+        font-size: 150%;
+        margin: 0%;
+    }
+
+    .sideBtn    {
+        padding: 5px 15%;
+    }
+
+    .subHeaderText  {
+        font-size: 100%;
+    }
+
+    .icons  {
+        font-size: 100%;
+    }
+
+    .iconF {
+        padding: 9px 16px;
+    }
+    
+    .iconG {
+        padding: 9px 11px;
+    }
+
+    .iconIn {
+        padding: 9px 14px;
+    }
+
+    .orContainer    {
+        margin: 0 5%;
+    }
+
+    .or {
+        font-size: 90%;
+        font-weight: 450;
+        left: 45%;
+    }
+
+    .inputContainer    {
+        margin: 0 5%;
+    }
+
+    .signIn > input {
+        height: 40px;
+        margin-bottom: 5px;
+        padding: 0 15px;
+    }
+}
